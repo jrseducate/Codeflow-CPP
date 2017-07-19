@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Win32_Codeflow", "..\Build\Win32_Codeflow.exe", "{B2AB04F0-9D3B-4576-87B1-82C51676D1C1}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Work\Codeflow\Build\Win32_Codeflow.exe
+		RemoteMachine = 
+		StartingDirectory = C:\Work\Codeflow\Data
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{65D59EEC-C188-4D43-B0A8-FD0A14FC8143}"
+	ProjectSection(SolutionItems) = preProject
+		..\Code\AsciiBitmaps.h = ..\Code\AsciiBitmaps.h
+		..\Code\Build.bat = ..\Code\Build.bat
+		..\Code\SpaceInvaders.cpp = ..\Code\SpaceInvaders.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Win32", "Win32", "{0185EAA4-5EC4-4F56-BDF6-05007BCCD19E}"
+	ProjectSection(SolutionItems) = preProject
+		..\Code\Win32_Audio.cpp = ..\Code\Win32_Audio.cpp
+		..\Code\Win32_Codeflow.cpp = ..\Code\Win32_Codeflow.cpp
+		..\Code\Win32_Debug.cpp = ..\Code\Win32_Debug.cpp
+		..\Code\Win32_FileIO.cpp = ..\Code\Win32_FileIO.cpp
+		..\Code\Win32_Input.cpp = ..\Code\Win32_Input.cpp
+		..\Code\Win32_Render.cpp = ..\Code\Win32_Render.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{B0E72860-4A11-4094-8D94-16257FD82555}"
+	ProjectSection(SolutionItems) = preProject
+		..\Code\Codeflow.cpp = ..\Code\Codeflow.cpp
+		..\Code\Codeflow.h = ..\Code\Codeflow.h
+		..\Code\Platform.h = ..\Code\Platform.h
+		..\Code\Render.cpp = ..\Code\Render.cpp
+		..\Code\Render.h = ..\Code\Render.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{F987F53A-20AD-4FD7-8FF8-8B14CBB3ED9B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Code\DefaultIncludes.h = ..\Code\DefaultIncludes.h
+		..\Code\Math.h = ..\Code\Math.h
+		..\Code\TypeDefs.h = ..\Code\TypeDefs.h
+		..\Code\Utilities.h = ..\Code\Utilities.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2AB04F0-9D3B-4576-87B1-82C51676D1C1}.Debug|x64.ActiveCfg = Release|x64
+		{B2AB04F0-9D3B-4576-87B1-82C51676D1C1}.Debug|x86.ActiveCfg = Release|x64
+		{B2AB04F0-9D3B-4576-87B1-82C51676D1C1}.Release|x64.ActiveCfg = Release|x64
+		{B2AB04F0-9D3B-4576-87B1-82C51676D1C1}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

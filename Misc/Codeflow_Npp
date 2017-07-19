@@ -1,0 +1,17 @@
+<NotepadPlus>
+    <Project name="Codeflow">
+        <File name="C:\Work\Codeflow\Code\Build.bat" />
+        <File name="C:\Work\Codeflow\Code\Codeflow.cpp" />
+        <File name="C:\Work\Codeflow\Code\Codeflow.h" />
+        <File name="C:\Work\Codeflow\Code\DefaultIncludes.h" />
+        <File name="C:\Work\Codeflow\Code\Platform.h" />
+        <File name="C:\Work\Codeflow\Code\TempGlobalInclude.h" />
+        <File name="C:\Work\Codeflow\Code\TypeDefs.h" />
+        <File name="C:\Work\Codeflow\Code\Utilities.h" />
+        <File name="C:\Work\Codeflow\Code\Win32_Audio.cpp" />
+        <File name="C:\Work\Codeflow\Code\Win32_Codeflow.cpp" />
+        <File name="C:\Work\Codeflow\Code\Win32_FileIO.cpp" />
+        <File name="C:\Work\Codeflow\Code\Win32_Input.cpp" />
+        <File name="C:\Work\Codeflow\Code\Win32_Render.cpp" />
+    </Project>
+</NotepadPlus>
