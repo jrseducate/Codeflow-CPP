@@ -234,18 +234,21 @@ GAME_UPDATE_AND_RENDER(UpdateAndRender_SpaceInvaders)
 	GameState->PlayerX += (s32)(PlayerInput->Controllers[CONTROLLER_ONE].LeftStick.X * PlayerSpeed);
 	GameState->PlayerY += (s32)(PlayerInput->Controllers[CONTROLLER_ONE].LeftStick.Y * -PlayerSpeed);
 
-	ClearScreen(Buffer, ColorRGB(255, 0, 255, 255));
+	ClearScreen(Buffer, ColorRGB(0, 0, 0, 255));
 
+	/*
 	for (u32 i = 0, j = 0; j < 500; i += 20)
 	{
-		RenderBitmap(Buffer, EnemyB0_Bitmap, GameState->PlayerX + (i * 20), GameState->PlayerY + (j * 20), 12 + (u32)(sin(i + j) * 10));
+		RenderBitmap(Buffer, EnemyB0_Bitmap, GameState->PlayerX + (i * 20), GameState->PlayerY + (j * 20), 12 + (u32)(sin(i + j) * 10), {1.0f, 0.0f, 1.0f, 1.0f});
 		if (i >= 200)
 		{
 			j += 20;
 			i = 0;
 		}
 	}
-	RenderText(Buffer, "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n01234566789", 0, 0, 10, ColorRGB(255, 255, 255, 255));
+	*/
+	
+	//RenderText(Buffer, "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n01234566789", 0, 0, 10, ColorRGB(255, 255, 255, 255));
 	//RenderText(Buffer, "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n01234566789", GameState->PlayerX, GameState->PlayerY, 10, ColorRGB(0, 255, 255, 255));
 	//RenderText(Buffer, "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n01234566789", GameState->PlayerX, GameState->PlayerY, 8, ColorRGB(255, 0, 0, 1), 8);
 }

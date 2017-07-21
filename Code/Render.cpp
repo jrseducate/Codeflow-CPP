@@ -32,7 +32,7 @@ ClearScreen(offscreen_buffer* Bitmap, color BitmapPixel)
 }
 
 internal void
-RenderBitmap(offscreen_buffer* Buffer, bitmap Bitmap, s32 X, s32 Y, u32 Scale, color Color = {1, 1, 1, 1})
+RenderBitmap(offscreen_buffer* Buffer, bitmap Bitmap, s32 X, s32 Y, u32 Scale, color Color = {1.0f, 1.0f, 1.0f, 1.0f})
 {
 	u32 BitmapWidth = Bitmap.Width * Scale;
 	u32 BitmapHeight = Bitmap.Height * Scale;
